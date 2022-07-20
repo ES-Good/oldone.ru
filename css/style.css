@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Tahoma';
+    src:url('../fonts/Tahoma.woff') format('woff'),
+        url('../fonts/Tahoma.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+
+body{
+    font-family: 'Tahoma';
+    font-weight: 400;
+    color: #fff;
+}
+
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.title{
+    text-align: center;
+    font-weight: 400;
+}
+
+.title_lvl-1{
+    font-size: 36px;
+}
+
+.title_lvl-2{
+    font-size: 24px;
+}
+
+.title_lvl-3{
+    font-size: 22px;
+}
+
+.title_blue{
+    color: #044983;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.green-link{
+    text-decoration: none;
+    color: #fff;
+    background-color: #577F09;
+    padding: 10px 0;
+    max-width: 312px;
+    width: 100%;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 44px;
+}
+
+.header{
+    background-color: #000;
+    padding: 118px 0;
+}
+
+.header__decription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__decription p{
+    margin-top: 10px;
+}
+
+.about{
+    padding: 80px 0;
+}
+
+.about__grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 45px;
+}
+
+.about__box{
+    width: calc(100% / 4);
+    padding: 22px;
+    position: relative;
+    padding-top: 10%;
+}
+
+.about__box p{
+    color: #577E09;
+    text-align: center;
+}
+
+.about__box img{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.reviews{
+    background-image: url(../img/reviews/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px 0 150px;
+}
+
+.reviews__grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.reviews-box{
+    max-width: 350px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.reviews-box h4{
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.reviews-box p{
+    font-size: 12px;
+}
+
+.reviews-box__footer h5{
+    font-weight: 400;
+    text-align: right;
+}
+
+.reviews-box__footer{
+    margin-top: 10px;
+}
+
+.reviews-box__footer p{
+    text-align: right;
+}
+
+footer{
+    padding: 20px 0;
+    background-color: #507407;
+}
