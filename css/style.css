@@ -64,7 +64,9 @@ body{
 }
 
 .header{
-    background-color: #000;
+    background-image: url(../img/header/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 118px 0;
 }
 
@@ -93,7 +95,7 @@ body{
     width: calc(100% / 4);
     padding: 22px;
     position: relative;
-    padding-top: 10%;
+    padding-top: 12%;
 }
 
 .about__box p{
@@ -153,4 +155,33 @@ body{
 footer{
     padding: 20px 0;
     background-color: #507407;
+}
+
+@media screen and (max-width: 768px){
+    .about__box{
+        width: calc(100% / 3);
+        padding-top: 15%;
+    }
+
+    .reviews__grid{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .about__box{
+        width: 100%;
+        padding-top: 88px;
+    }
+
+    .about__box img{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .title_lvl-1{
+        font-size: 22px;
+    }
 }
