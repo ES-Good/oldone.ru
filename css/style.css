@@ -105,8 +105,9 @@ body{
 
 .about__box img{
     position: absolute;
-    left: 0;
+    left: 50%;
     top: 0;
+    transform: translateX(-50%);
 }
 
 .reviews{
